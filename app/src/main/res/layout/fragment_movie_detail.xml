@@ -15,7 +15,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            tools:context="com.ezz.moviesapp.MovieDetails.MovieDetailFragment">
+            tools:context="com.ezz.moviesapp.movieDetails.MovieDetailFragment">
 
             <TextView
                 android:id="@+id/txtMovieName"

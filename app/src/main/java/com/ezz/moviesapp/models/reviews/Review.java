@@ -1,5 +1,5 @@
 
-package com.ezz.moviesapp.Models.Reviews;
+package com.ezz.moviesapp.models.reviews;
 
 import android.os.Parcel;
 import android.os.Parcelable;

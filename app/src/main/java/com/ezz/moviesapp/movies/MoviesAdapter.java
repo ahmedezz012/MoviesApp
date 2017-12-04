@@ -1,4 +1,4 @@
-package com.ezz.moviesapp.Movies;
+package com.ezz.moviesapp.movies;
 
 import android.content.Context;
 import android.graphics.BitmapFactory;
@@ -8,8 +8,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
-import com.ezz.moviesapp.Helpers.Utils;
-import com.ezz.moviesapp.Models.Movies.Movie;
+import com.ezz.moviesapp.helpers.Utils;
+import com.ezz.moviesapp.models.movies.Movie;
 import com.ezz.moviesapp.R;
 import com.squareup.picasso.Picasso;
 

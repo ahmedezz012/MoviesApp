@@ -1,4 +1,4 @@
-package com.ezz.moviesapp.Movies;
+package com.ezz.moviesapp.movies;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -6,23 +6,23 @@ import android.net.Uri;
 
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
-import com.ezz.moviesapp.Helpers.GsonHelper;
-import com.ezz.moviesapp.Helpers.ServicesCaller;
-import com.ezz.moviesapp.Helpers.Utils;
-import com.ezz.moviesapp.Models.Movies.Movie;
-import com.ezz.moviesapp.Models.Movies.MovieResponse;
-import com.ezz.moviesapp.Movies.MoviesActivity.MoviesSort;
+import com.ezz.moviesapp.helpers.GsonHelper;
+import com.ezz.moviesapp.helpers.ServicesCaller;
+import com.ezz.moviesapp.helpers.Utils;
+import com.ezz.moviesapp.models.movies.Movie;
+import com.ezz.moviesapp.models.movies.MovieResponse;
+import com.ezz.moviesapp.movies.MoviesActivity.MoviesSort;
 
 import java.util.ArrayList;
 
-import static com.ezz.moviesapp.Helpers.MoviesContentProvider.MOVIES_CONTENT_URI;
-import static com.ezz.moviesapp.Helpers.SqliteHelper.MOVIE_DATE_INDEX;
-import static com.ezz.moviesapp.Helpers.SqliteHelper.MOVIE_ID_INDEX;
-import static com.ezz.moviesapp.Helpers.SqliteHelper.MOVIE_IMAGE_INDEX;
-import static com.ezz.moviesapp.Helpers.SqliteHelper.MOVIE_OVERVIEW_INDEX;
-import static com.ezz.moviesapp.Helpers.SqliteHelper.MOVIE_POSTER_URL_INDEX;
-import static com.ezz.moviesapp.Helpers.SqliteHelper.MOVIE_RATE_INDEX;
-import static com.ezz.moviesapp.Helpers.SqliteHelper.MOVIE_TITLE_INDEX;
+import static com.ezz.moviesapp.helpers.MoviesContentProvider.MOVIES_CONTENT_URI;
+import static com.ezz.moviesapp.helpers.SqliteHelper.MOVIE_DATE_INDEX;
+import static com.ezz.moviesapp.helpers.SqliteHelper.MOVIE_ID_INDEX;
+import static com.ezz.moviesapp.helpers.SqliteHelper.MOVIE_IMAGE_INDEX;
+import static com.ezz.moviesapp.helpers.SqliteHelper.MOVIE_OVERVIEW_INDEX;
+import static com.ezz.moviesapp.helpers.SqliteHelper.MOVIE_POSTER_URL_INDEX;
+import static com.ezz.moviesapp.helpers.SqliteHelper.MOVIE_RATE_INDEX;
+import static com.ezz.moviesapp.helpers.SqliteHelper.MOVIE_TITLE_INDEX;
 
 
 /**

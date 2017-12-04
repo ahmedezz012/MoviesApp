@@ -1,4 +1,4 @@
-package com.ezz.moviesapp.Helpers;
+package com.ezz.moviesapp.helpers;
 
 import android.content.ContentProvider;
 import android.content.ContentUris;

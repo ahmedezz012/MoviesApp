@@ -1,10 +1,10 @@
-package com.ezz.moviesapp.Helpers;
+package com.ezz.moviesapp.helpers;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 
-import com.ezz.moviesapp.Movies.MoviesActivity.MoviesSort;
+import com.ezz.moviesapp.movies.MoviesActivity.MoviesSort;
 
 /**
  * Created by samar ezz on 11/11/2017.

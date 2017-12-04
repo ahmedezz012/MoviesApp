@@ -1,4 +1,4 @@
-package com.ezz.moviesapp.MovieDetails;
+package com.ezz.moviesapp.movieDetails;
 
 import android.content.Context;
 import android.content.Intent;
@@ -11,8 +11,8 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
-import com.ezz.moviesapp.Helpers.ActivityBase;
-import com.ezz.moviesapp.Models.Movies.Movie;
+import com.ezz.moviesapp.helpers.ActivityBase;
+import com.ezz.moviesapp.models.movies.Movie;
 import com.ezz.moviesapp.R;
 
 public class MovieDetailActivity extends ActivityBase {

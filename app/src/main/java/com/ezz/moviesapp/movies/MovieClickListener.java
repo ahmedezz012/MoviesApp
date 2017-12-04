@@ -1,6 +1,6 @@
-package com.ezz.moviesapp.Movies;
+package com.ezz.moviesapp.movies;
 
-import com.ezz.moviesapp.Models.Movies.Movie;
+import com.ezz.moviesapp.models.movies.Movie;
 
 /**
  * Created by samar ezz on 11/10/2017.

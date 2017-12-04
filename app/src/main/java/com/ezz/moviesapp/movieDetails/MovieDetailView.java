@@ -1,7 +1,7 @@
-package com.ezz.moviesapp.MovieDetails;
+package com.ezz.moviesapp.movieDetails;
 
-import com.ezz.moviesapp.Models.Reviews.Review;
-import com.ezz.moviesapp.Models.Videos.Video;
+import com.ezz.moviesapp.models.reviews.Review;
+import com.ezz.moviesapp.models.videos.Video;
 
 import java.util.ArrayList;
 

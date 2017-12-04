@@ -1,13 +1,12 @@
-package com.ezz.moviesapp.Helpers;
+package com.ezz.moviesapp.helpers;
 
-import android.app.Activity;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.text.TextUtils;
 
-import com.ezz.moviesapp.Movies.MoviesActivity;
+import com.ezz.moviesapp.movies.MoviesActivity;
 import com.ezz.moviesapp.R;
 
 /**

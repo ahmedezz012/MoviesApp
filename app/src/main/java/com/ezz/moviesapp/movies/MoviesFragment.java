@@ -1,4 +1,4 @@
-package com.ezz.moviesapp.Movies;
+package com.ezz.moviesapp.movies;
 
 
 import android.content.Context;
@@ -15,11 +15,11 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.ezz.moviesapp.Helpers.FragmentBase;
-import com.ezz.moviesapp.Helpers.ServicesCaller;
-import com.ezz.moviesapp.Helpers.SharedPreferencesHelper;
-import com.ezz.moviesapp.Models.Movies.Movie;
-import com.ezz.moviesapp.Movies.MoviesActivity.MoviesSort;
+import com.ezz.moviesapp.helpers.FragmentBase;
+import com.ezz.moviesapp.helpers.ServicesCaller;
+import com.ezz.moviesapp.helpers.SharedPreferencesHelper;
+import com.ezz.moviesapp.models.movies.Movie;
+import com.ezz.moviesapp.movies.MoviesActivity.MoviesSort;
 import com.ezz.moviesapp.R;
 
 import java.util.ArrayList;

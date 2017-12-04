@@ -1,4 +1,4 @@
-package com.ezz.moviesapp.MovieDetails;
+package com.ezz.moviesapp.movieDetails;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -7,7 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.ezz.moviesapp.Models.Reviews.Review;
+import com.ezz.moviesapp.models.reviews.Review;
 import com.ezz.moviesapp.R;
 
 import java.util.ArrayList;

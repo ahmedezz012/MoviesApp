@@ -1,4 +1,4 @@
-package com.ezz.moviesapp.MovieDetails;
+package com.ezz.moviesapp.movieDetails;
 
 import android.app.Activity;
 import android.content.ContentValues;
@@ -14,35 +14,35 @@ import android.widget.Toast;
 
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
-import com.ezz.moviesapp.Helpers.GsonHelper;
-import com.ezz.moviesapp.Helpers.ServicesCaller;
-import com.ezz.moviesapp.Helpers.Utils;
-import com.ezz.moviesapp.Models.Movies.Movie;
-import com.ezz.moviesapp.Models.Reviews.MovieReviewsResponse;
-import com.ezz.moviesapp.Models.Reviews.Review;
-import com.ezz.moviesapp.Models.Videos.MovieVideosResponse;
-import com.ezz.moviesapp.Models.Videos.Video;
+import com.ezz.moviesapp.helpers.GsonHelper;
+import com.ezz.moviesapp.helpers.ServicesCaller;
+import com.ezz.moviesapp.helpers.Utils;
+import com.ezz.moviesapp.models.movies.Movie;
+import com.ezz.moviesapp.models.reviews.MovieReviewsResponse;
+import com.ezz.moviesapp.models.reviews.Review;
+import com.ezz.moviesapp.models.videos.MovieVideosResponse;
+import com.ezz.moviesapp.models.videos.Video;
 import com.ezz.moviesapp.R;
 
 import java.io.ByteArrayOutputStream;
 import java.util.ArrayList;
 
-import static com.ezz.moviesapp.Helpers.MoviesContentProvider.MOVIES_CONTENT_URI;
-import static com.ezz.moviesapp.Helpers.MoviesContentProvider.REVIEWS_CONTENT_URI;
-import static com.ezz.moviesapp.Helpers.MoviesContentProvider.TRAILERS_CONTENT_URI;
-import static com.ezz.moviesapp.Helpers.SqliteHelper.MOVIE_DATE_COLUMN;
-import static com.ezz.moviesapp.Helpers.SqliteHelper.MOVIE_ID_COLUMN;
-import static com.ezz.moviesapp.Helpers.SqliteHelper.MOVIE_OVERVIEW_COLUMN;
-import static com.ezz.moviesapp.Helpers.SqliteHelper.MOVIE_POSTER_COLUMN;
-import static com.ezz.moviesapp.Helpers.SqliteHelper.MOVIE_POSTER_URL_COLUMN;
-import static com.ezz.moviesapp.Helpers.SqliteHelper.MOVIE_RATE_COLUMN;
-import static com.ezz.moviesapp.Helpers.SqliteHelper.MOVIE_TITLE_COLUMN;
-import static com.ezz.moviesapp.Helpers.SqliteHelper.REVIEW_CONTENT_COLUMN;
-import static com.ezz.moviesapp.Helpers.SqliteHelper.REVIEW_CONTENT_INDEX;
-import static com.ezz.moviesapp.Helpers.SqliteHelper.REVIEW_URL_COLUMN;
-import static com.ezz.moviesapp.Helpers.SqliteHelper.REVIEW_URL_INDEX;
-import static com.ezz.moviesapp.Helpers.SqliteHelper.TRAILER_KEY_COLUMN;
-import static com.ezz.moviesapp.Helpers.SqliteHelper.TRAILER_KEY_INDEX;
+import static com.ezz.moviesapp.helpers.MoviesContentProvider.MOVIES_CONTENT_URI;
+import static com.ezz.moviesapp.helpers.MoviesContentProvider.REVIEWS_CONTENT_URI;
+import static com.ezz.moviesapp.helpers.MoviesContentProvider.TRAILERS_CONTENT_URI;
+import static com.ezz.moviesapp.helpers.SqliteHelper.MOVIE_DATE_COLUMN;
+import static com.ezz.moviesapp.helpers.SqliteHelper.MOVIE_ID_COLUMN;
+import static com.ezz.moviesapp.helpers.SqliteHelper.MOVIE_OVERVIEW_COLUMN;
+import static com.ezz.moviesapp.helpers.SqliteHelper.MOVIE_POSTER_COLUMN;
+import static com.ezz.moviesapp.helpers.SqliteHelper.MOVIE_POSTER_URL_COLUMN;
+import static com.ezz.moviesapp.helpers.SqliteHelper.MOVIE_RATE_COLUMN;
+import static com.ezz.moviesapp.helpers.SqliteHelper.MOVIE_TITLE_COLUMN;
+import static com.ezz.moviesapp.helpers.SqliteHelper.REVIEW_CONTENT_COLUMN;
+import static com.ezz.moviesapp.helpers.SqliteHelper.REVIEW_CONTENT_INDEX;
+import static com.ezz.moviesapp.helpers.SqliteHelper.REVIEW_URL_COLUMN;
+import static com.ezz.moviesapp.helpers.SqliteHelper.REVIEW_URL_INDEX;
+import static com.ezz.moviesapp.helpers.SqliteHelper.TRAILER_KEY_COLUMN;
+import static com.ezz.moviesapp.helpers.SqliteHelper.TRAILER_KEY_INDEX;
 
 /**
  * Created by samar ezz on 11/22/2017.

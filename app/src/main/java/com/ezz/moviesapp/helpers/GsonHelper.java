@@ -1,8 +1,8 @@
-package com.ezz.moviesapp.Helpers;
+package com.ezz.moviesapp.helpers;
 
-import com.ezz.moviesapp.Models.Movies.MovieResponse;
-import com.ezz.moviesapp.Models.Reviews.MovieReviewsResponse;
-import com.ezz.moviesapp.Models.Videos.MovieVideosResponse;
+import com.ezz.moviesapp.models.movies.MovieResponse;
+import com.ezz.moviesapp.models.reviews.MovieReviewsResponse;
+import com.ezz.moviesapp.models.videos.MovieVideosResponse;
 import com.google.gson.Gson;
 
 /**
