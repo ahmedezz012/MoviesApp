@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="imgHeight">270dp</dimen>
+    <dimen name="marginSmall">5dp</dimen>
+    <dimen name="marginMedium">10dp</dimen>
+    <dimen name="marginLarge">15dp</dimen>
+    <dimen name="marginXLarge">20dp</dimen>
+    <dimen name="marginXXLarge">25dp</dimen>
+    <dimen name="marginXXXLarge">30dp</dimen>
+    <dimen name="marginXXXXLarge">35dp</dimen>
+    <dimen name="marginXXXXXLarge">40dp</dimen>
+
+    <dimen name="imgHeightThumbnail">200dp</dimen>
+
+    <dimen name="imgWeightThumbnail">140dp</dimen>
+
+    <dimen name="fontSmall">12sp</dimen>
+    <dimen name="fontMedium">14sp</dimen>
+    <dimen name="fontLarge">16sp</dimen>
+    <dimen name="fontXLarge">18sp</dimen>
+    <dimen name="fontXXLarge">20sp</dimen>
+    <dimen name="fontXXXLarge">22sp</dimen>
+    <dimen name="fontXXXXLarge">24sp</dimen>
+
+
+</resources>

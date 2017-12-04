@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">MoviesApp</string>
+    <string name="moviePoster">Movie Poster</string>
+
+    <string name="popularMovies">Popular Movies</string>
+    <string name="topRatedMovies">Top Rated Movies</string>
+    <string name="favoritesMovies">Favorites Movies</string>
+
+    <string name="popular">Popular</string>
+    <string name="topRated">Top Rated</string>
+    <string name="favorites">Favorites</string>
+    <string name="movieDetail">Movie Detail</string>
+    <string name="noInternetConnection">No internet connection</string>
+    <string name="networkingError">Network error</string>
+    <string name="markAsFavourite">Mark as favourite</string>
+    <string name="unMark">Un mark favourite </string>
+    <string name="trailers">Trailers:</string>
+    <string name="trailerIcon">Trailer icon</string>
+    <string name="trailer">Trailer</string>
+    <string name="reviews">Reviews</string>
+    <string name="noFavourites">No Favourites Movies</string>
+    <string name="addingFailed">Adding failed</string>
+    <string name="addingSuccess">Adding Success</string>
+    <string name="addingTrailersFailed">Adding trailers failed</string>
+    <string name="addingReviewsFailed">Adding reviews failed</string>
+    <string name="share">share first trailer</string>
+    <string name="chooserTitle">Share to</string>
+    <string name="noTrailerToShare">No trailer to show</string>
+    <string name="noAppToHandleShare">No app to handle this share</string>
+    <string name="noAppToHandleLink">No app to handle this link</string>
+
+
+</resources>
